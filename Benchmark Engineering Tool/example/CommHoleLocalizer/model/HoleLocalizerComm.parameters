@@ -1,0 +1,3 @@
+ParameterSetRepository HoleLocalizerComm {
+	ParameterSet MyParameterSet extends EmptyDefaultParameterSet { }
+}

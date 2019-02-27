@@ -1,0 +1,52 @@
+/** 
+\class CommHoleLocalizer::BoundingBoxCore
+
+Structure of Communication Object:
+- x: Int32 
+- y: Int32 
+- width: Int32 
+- height: Int32 
+
+\class CommHoleLocalizer::HolesCore
+
+Structure of Communication Object:
+- list: CommHoleLocalizer::BoundingBox[*] 
+
+\class CommHoleLocalizer::ImageDirCore
+
+Structure of Communication Object:
+- directory: String 
+
+
+
+
+@defgroup CommHoleLocalizer
+@ingroup commObjGroup
+@{
+\page CommHoleLocalizerPage CommHoleLocalizer
+Class Reference: CommHoleLocalizer
+<hr>
+
+@section BoundingBox BoundingBox
+- x: Int32  
+- y: Int32  
+- width: Int32  
+- height: Int32  
+
+Class Reference: CommHoleLocalizer::BoundingBoxCore
+<hr>
+@section Holes Holes
+- list: @ref BoundingBox[*] (CommObj) 
+
+Class Reference: CommHoleLocalizer::HolesCore
+<hr>
+@section ImageDir ImageDir
+- directory: String  
+
+Class Reference: CommHoleLocalizer::ImageDirCore
+<hr>
+
+
+@}
+*/
+

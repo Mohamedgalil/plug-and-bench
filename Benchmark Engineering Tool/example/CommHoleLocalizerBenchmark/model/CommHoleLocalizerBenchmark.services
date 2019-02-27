@@ -1,0 +1,9 @@
+ServiceDefRepository CommHoleLocalizerBenchmark version 1.0
+{
+	RequestAnswerServiceDefinition SendDatabase {
+		QueryPattern <
+			RequestType = CommHoleLocalizerBenchmark.Query
+			AnswerType = CommHoleLocalizerBenchmark.QueryResult
+		>
+	}
+}

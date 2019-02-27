@@ -1,0 +1,3 @@
+ParameterSetRepository CommHoleLocalizerBenchmark {
+	ParameterSet MyParameterSet extends EmptyDefaultParameterSet { }
+}

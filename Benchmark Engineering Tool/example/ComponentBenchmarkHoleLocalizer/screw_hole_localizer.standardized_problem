@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standardized_problem:StandardizedProblem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BasicAttributes="http://www.ecore.org/base/BasicAttributes" xmlns:standardized_problem="http://www.ipa.frauhofer.de/standardized_problem" label="SHL_RGB" description="ScrewHole Localizer for RGB Camera images">
+  <scenarioDefinition label="BasicPerformance" weight="0.9">
+    <tuple label="Basic Performance" weight="0.9" weightedperfmeasure="//@scenarioDefinition.0/@performanceMeasures.0">
+      <environmentVariable environmentVariableDefinition="//@environmentVariableDefinition.0">
+        <value xsi:type="BasicAttributes:IntValue"/>
+      </environmentVariable>
+      <environmentVariable environmentVariableDefinition="//@environmentVariableDefinition.1">
+        <value xsi:type="BasicAttributes:IntValue" value="50"/>
+      </environmentVariable>
+      <environmentVariable environmentVariableDefinition="//@environmentVariableDefinition.2">
+        <value xsi:type="BasicAttributes:BoolValue"/>
+      </environmentVariable>
+      <environmentVariable environmentVariableDefinition="//@environmentVariableDefinition.3">
+        <value xsi:type="BasicAttributes:IntValue"/>
+      </environmentVariable>
+      <environmentVariable environmentVariableDefinition="//@environmentVariableDefinition.4">
+        <value xsi:type="BasicAttributes:IntValue" value="50"/>
+      </environmentVariable>
+    </tuple>
+    <tuple label="Multi-hole-size" weight="0.9" weightedperfmeasure="//@scenarioDefinition.0/@performanceMeasures.0">
+      <environmentVariable environmentVariableDefinition="//@environmentVariableDefinition.0">
+        <value xsi:type="BasicAttributes:IntValue"/>
+      </environmentVariable>
+      <environmentVariable environmentVariableDefinition="//@environmentVariableDefinition.1">
+        <value xsi:type="BasicAttributes:IntValue" value="50"/>
+      </environmentVariable>
+      <environmentVariable environmentVariableDefinition="//@environmentVariableDefinition.2">
+        <value xsi:type="BasicAttributes:BoolValue" value="true"/>
+      </environmentVariable>
+      <environmentVariable environmentVariableDefinition="//@environmentVariableDefinition.3">
+        <value xsi:type="BasicAttributes:IntValue"/>
+      </environmentVariable>
+      <environmentVariable environmentVariableDefinition="//@environmentVariableDefinition.4">
+        <value xsi:type="BasicAttributes:IntValue" value="50"/>
+      </environmentVariable>
+    </tuple>
+    <performanceMeasures perfMeasure="//@performanceCriteria.0"/>
+    <benchmarkconstraint benchmarkConstraintDefinition="//@benchmarkConstraintDefinition.0">
+      <value xsi:type="BasicAttributes:IntValue"/>
+    </benchmarkconstraint>
+  </scenarioDefinition>
+  <scenarioDefinition label="NoiseRobustness" weight="0.1">
+    <tuple label="Noise Robustness" weight="0.1">
+      <environmentVariable environmentVariableDefinition="//@environmentVariableDefinition.0">
+        <value xsi:type="BasicAttributes:IntValue"/>
+      </environmentVariable>
+      <environmentVariable environmentVariableDefinition="//@environmentVariableDefinition.1">
+        <value xsi:type="BasicAttributes:IntValue" value="100"/>
+      </environmentVariable>
+      <environmentVariable environmentVariableDefinition="//@environmentVariableDefinition.0">
+        <value xsi:type="BasicAttributes:IntValue"/>
+      </environmentVariable>
+      <environmentVariable environmentVariableDefinition="//@environmentVariableDefinition.1">
+        <value xsi:type="BasicAttributes:IntValue" value="10"/>
+      </environmentVariable>
+      <environmentVariable environmentVariableDefinition="//@environmentVariableDefinition.2">
+        <value xsi:type="BasicAttributes:BoolValue"/>
+      </environmentVariable>
+      <environmentVariable environmentVariableDefinition="//@environmentVariableDefinition.3">
+        <value xsi:type="BasicAttributes:IntValue"/>
+      </environmentVariable>
+      <environmentVariable environmentVariableDefinition="//@environmentVariableDefinition.4">
+        <value xsi:type="BasicAttributes:IntValue" value="50"/>
+      </environmentVariable>
+    </tuple>
+    <performanceMeasures perfMeasure="//@performanceCriteria.0"/>
+  </scenarioDefinition>
+  <performanceCriteria label="nHoles" description="number of screwholes found - number of actual screwholes" metric="#"/>
+  <environmentVariableDefinition name="minHoleSize" description="in mm">
+    <type xsi:type="BasicAttributes:PrimitiveType"/>
+  </environmentVariableDefinition>
+  <environmentVariableDefinition name="maxHoleSize" description="in mm">
+    <type xsi:type="BasicAttributes:PrimitiveType"/>
+  </environmentVariableDefinition>
+  <environmentVariableDefinition name="isMultipleHoleSizes">
+    <type xsi:type="BasicAttributes:PrimitiveType" typeName="Boolean"/>
+  </environmentVariableDefinition>
+  <environmentVariableDefinition name="minPose" description="Pose from which image is taken">
+    <type xsi:type="BasicAttributes:PrimitiveType"/>
+  </environmentVariableDefinition>
+  <environmentVariableDefinition name="maxPose" description="Pose from which image is taken">
+    <type xsi:type="BasicAttributes:PrimitiveType"/>
+  </environmentVariableDefinition>
+  <environmentVariableDefinition name="Occlusion" description="Occlusion of environment">
+    <type xsi:type="BasicAttributes:PrimitiveType"/>
+  </environmentVariableDefinition>
+  <environmentVariableDefinition name="Illumination" description="Illumniation of image taken">
+    <type xsi:type="BasicAttributes:PrimitiveType"/>
+  </environmentVariableDefinition>
+  <benchmarkConstraintDefinition name="ImageType" description="">
+    <type xsi:type="BasicAttributes:PrimitiveType"/>
+  </benchmarkConstraintDefinition>
+</standardized_problem:StandardizedProblem>

@@ -1,0 +1,17 @@
+SystemComponentArchitecture SystemHoleLocalizer {
+
+ComponentInstance ComponentBenchmarkHoleLocalizer instantiates ComponentBenchmarkHoleLocalizer
+{
+	RequiredService SendDatabaseReq
+	RequiredService SendImageReq
+} 
+ComponentInstance ComponentDatabase instantiates ComponentDatabase
+{
+	ProvidedService SendDatabaseAnsw
+} 
+ComponentInstance ComponentHoleLocalizer instantiates ComponentHoleLocalizer
+{
+	ProvidedService SendImageAnsw
+} 
+Connection ComponentBenchmarkHoleLocalizer.SendDatabaseReq -> ComponentDatabase.SendDatabaseAnsw 
+Connection ComponentBenchmarkHoleLocalizer.SendImageReq -> ComponentHoleLocalizer.SendImageAnsw }

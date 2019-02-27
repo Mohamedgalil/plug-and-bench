@@ -1,0 +1,19 @@
+CommObjectsRepository CommHoleLocalizer version 1.0 {
+	CommObject BoundingBox {
+		x : Int32;
+		y : Int32;
+		width : Int32;
+		height : Int32;
+		
+	}
+	
+	CommObject Holes {
+		list : BoundingBox[*]
+		
+	}
+	
+	CommObject ImageDir {
+		directory : String
+	}
+
+}

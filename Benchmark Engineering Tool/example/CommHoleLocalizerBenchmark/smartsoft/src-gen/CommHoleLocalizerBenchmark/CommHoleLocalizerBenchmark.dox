@@ -1,0 +1,52 @@
+/** 
+\class CommHoleLocalizerBenchmark::QueryResultCore
+
+Structure of Communication Object:
+- directoriesList: CommHoleLocalizer::ImageDir[*] 
+- gtd: Int16[*] 
+
+\class CommHoleLocalizerBenchmark::QueryCore
+
+Structure of Communication Object:
+- value: Int16 
+- minHoleSize: Int8 
+- maxHoleSize: Int8 
+- isMultipleHoles: Boolean 
+- minPose: Int8 
+- maxPose: Int8 
+- occlusion: Int8 
+- illumination: Int8 
+
+
+
+
+@defgroup CommHoleLocalizerBenchmark
+@ingroup commObjGroup
+@{
+\page CommHoleLocalizerBenchmarkPage CommHoleLocalizerBenchmark
+Class Reference: CommHoleLocalizerBenchmark
+<hr>
+
+@section QueryResult QueryResult
+- directoriesList: @ref ImageDir[*] (CommObj) 
+- gtd: Int16[*]  
+
+Class Reference: CommHoleLocalizerBenchmark::QueryResultCore
+<hr>
+@section Query Query
+- value: Int16  
+- minHoleSize: Int8  
+- maxHoleSize: Int8  
+- isMultipleHoles: Boolean  
+- minPose: Int8  
+- maxPose: Int8  
+- occlusion: Int8  
+- illumination: Int8  
+
+Class Reference: CommHoleLocalizerBenchmark::QueryCore
+<hr>
+
+
+@}
+*/
+

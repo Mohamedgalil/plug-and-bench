@@ -1,0 +1,14 @@
+DeploymentModel SystemHoleLocalizer {
+
+TargetPlatformReference PC1 using SystemHoleLocalizer.PC1
+	{
+		UploadDirectory "/tmp"
+		NetworkInterface eth1
+	}
+	NamingService
+	{
+		deploy-to PC1 }
+	ComponentArtefact SystemHoleLocalizer.ComponentBenchmarkHoleLocalizer deploy-to PC1
+	ComponentArtefact SystemHoleLocalizer.ComponentDatabase deploy-to PC1
+	ComponentArtefact SystemHoleLocalizer.ComponentHoleLocalizer deploy-to PC1
+}

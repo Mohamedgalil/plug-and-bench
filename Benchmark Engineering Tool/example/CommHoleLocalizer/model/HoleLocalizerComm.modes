@@ -1,0 +1,5 @@
+ComponentModeRepository HoleLocalizerComm {
+	ComponentModeCollection DefaultModes {
+		ComponentModeDefinition Active;
+	}
+}

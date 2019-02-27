@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standardized_problem:StandardizedProblem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basicAttributes="http://www.ecore.org/base/basicAttributes" xmlns:standardized_problem="http://www.ipa.frauhofer.de/standardized_problem" label="SHL_RGB" description="ScrewHole Localizer for RGB Camera images">
+  <ScenarioDefinitions label="BasicPerformance" weight="0.9">
+    <dimensions name="minHoleSize" description="in mm">
+      <type xsi:type="basicAttributes:PrimitiveType"/>
+    </dimensions>
+    <dimensions name="maxHoleSize" description="in mm">
+      <type xsi:type="basicAttributes:PrimitiveType"/>
+    </dimensions>
+    <dimensions name="isMultipleHoleSizes">
+      <type xsi:type="basicAttributes:PrimitiveType" typeName="Boolean"/>
+    </dimensions>
+    <dimensions name="minPose" description="Pose from which image is taken">
+      <type xsi:type="basicAttributes:PrimitiveType"/>
+    </dimensions>
+    <dimensions name="maxPose" description="Pose from which image is taken">
+      <type xsi:type="basicAttributes:PrimitiveType"/>
+    </dimensions>
+    <tuple label="Basic Perfromance" weight="0.9" weightedperfmeasure="//@ScenarioDefinitions.0/@performanceMeasures.0">
+      <envVarVal environmentVariable="//@ScenarioDefinitions.0/@dimensions.0">
+        <value xsi:type="basicAttributes:IntValue"/>
+      </envVarVal>
+      <envVarVal environmentVariable="//@ScenarioDefinitions.0/@dimensions.1">
+        <value xsi:type="basicAttributes:IntValue" value="50"/>
+      </envVarVal>
+      <envVarVal environmentVariable="//@ScenarioDefinitions.0/@dimensions.2">
+        <value xsi:type="basicAttributes:BoolValue"/>
+      </envVarVal>
+      <envVarVal environmentVariable="//@ScenarioDefinitions.0/@dimensions.3">
+        <value xsi:type="basicAttributes:IntValue"/>
+      </envVarVal>
+      <envVarVal environmentVariable="//@ScenarioDefinitions.0/@dimensions.4">
+        <value xsi:type="basicAttributes:IntValue" value="50"/>
+      </envVarVal>
+      <envVarVal environmentVariable="//@ScenarioDefinitions.1/@dimensions.0">
+        <value xsi:type="basicAttributes:IntValue"/>
+      </envVarVal>
+      <envVarVal environmentVariable="//@ScenarioDefinitions.1/@dimensions.1">
+        <value xsi:type="basicAttributes:IntValue" value="100"/>
+      </envVarVal>
+    </tuple>
+    <tuple label="Multi-hole-size" weight="0.9" weightedperfmeasure="//@ScenarioDefinitions.0/@performanceMeasures.0">
+      <envVarVal environmentVariable="//@ScenarioDefinitions.0/@dimensions.0">
+        <value xsi:type="basicAttributes:IntValue"/>
+      </envVarVal>
+      <envVarVal environmentVariable="//@ScenarioDefinitions.0/@dimensions.1">
+        <value xsi:type="basicAttributes:IntValue" value="50"/>
+      </envVarVal>
+      <envVarVal environmentVariable="//@ScenarioDefinitions.0/@dimensions.2">
+        <value xsi:type="basicAttributes:BoolValue" value="true"/>
+      </envVarVal>
+      <envVarVal environmentVariable="//@ScenarioDefinitions.0/@dimensions.3">
+        <value xsi:type="basicAttributes:IntValue"/>
+      </envVarVal>
+      <envVarVal environmentVariable="//@ScenarioDefinitions.0/@dimensions.4">
+        <value xsi:type="basicAttributes:IntValue" value="50"/>
+      </envVarVal>
+    </tuple>
+    <performanceMeasures perfMeasure="//@performanceCriteria.0"/>
+  </ScenarioDefinitions>
+  <ScenarioDefinitions label="NoiseRobustness" weight="0.1">
+    <dimensions name="Occlusion" description="Occlusion of environment">
+      <type xsi:type="basicAttributes:PrimitiveType"/>
+    </dimensions>
+    <dimensions name="Illumination" description="Illumniation of image taken">
+      <type xsi:type="basicAttributes:PrimitiveType"/>
+    </dimensions>
+    <dimensions name="minHoleSize" description="in mm - Constant">
+      <type xsi:type="basicAttributes:PrimitiveType"/>
+      <defaultvalue xsi:type="basicAttributes:IntValue" value="10"/>
+    </dimensions>
+    <dimensions name="maxHoleSize" description="in mm">
+      <type xsi:type="basicAttributes:PrimitiveType"/>
+      <defaultvalue xsi:type="basicAttributes:IntValue" value="10"/>
+    </dimensions>
+    <dimensions name="isMultipleHoleSizes">
+      <type xsi:type="basicAttributes:PrimitiveType" typeName="Boolean"/>
+      <defaultvalue xsi:type="basicAttributes:BoolValue"/>
+    </dimensions>
+    <tuple label="Noise Robustness" weight="0.1">
+      <envVarVal environmentVariable="//@ScenarioDefinitions.1/@dimensions.0">
+        <value xsi:type="basicAttributes:IntValue"/>
+      </envVarVal>
+      <envVarVal environmentVariable="//@ScenarioDefinitions.1/@dimensions.1">
+        <value xsi:type="basicAttributes:IntValue" value="100"/>
+      </envVarVal>
+      <envVarVal environmentVariable="//@ScenarioDefinitions.0/@dimensions.0">
+        <value xsi:type="basicAttributes:IntValue"/>
+      </envVarVal>
+      <envVarVal environmentVariable="//@ScenarioDefinitions.0/@dimensions.1">
+        <value xsi:type="basicAttributes:IntValue" value="10"/>
+      </envVarVal>
+      <envVarVal environmentVariable="//@ScenarioDefinitions.0/@dimensions.2">
+        <value xsi:type="basicAttributes:BoolValue"/>
+      </envVarVal>
+      <envVarVal environmentVariable="//@ScenarioDefinitions.0/@dimensions.3">
+        <value xsi:type="basicAttributes:IntValue"/>
+      </envVarVal>
+      <envVarVal environmentVariable="//@ScenarioDefinitions.0/@dimensions.4">
+        <value xsi:type="basicAttributes:IntValue" value="50"/>
+      </envVarVal>
+    </tuple>
+    <performanceMeasures perfMeasure="//@performanceCriteria.0"/>
+  </ScenarioDefinitions>
+  <performanceCriteria label="nHoles" description="number of screwholes found - number of actual screwholes" metric="#"/>
+</standardized_problem:StandardizedProblem>

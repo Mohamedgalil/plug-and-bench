@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<benchmark_experiment:BenchmarkExperiment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:benchmark_experiment="http://www.ipa.frauhofer.de/benchmark_experiment">
+  <standardizedProblem href="screw_hole_localizer.standardized_problem#/"/>
+</benchmark_experiment:BenchmarkExperiment>

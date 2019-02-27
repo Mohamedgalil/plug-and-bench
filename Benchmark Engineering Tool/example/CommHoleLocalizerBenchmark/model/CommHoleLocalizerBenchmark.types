@@ -1,0 +1,19 @@
+#import CommHoleLocalizer.*;
+CommObjectsRepository CommHoleLocalizerBenchmark version 1.0
+{
+	CommObject QueryResult {
+		directoriesList : CommHoleLocalizer.ImageDir[*] //list of images
+		gtd : Int16[*] // ground truth data: list of number of screwholes per image
+	}
+	CommObject Query {
+		
+		value: Int16; // Query dimensions	
+		minHoleSize : Int8
+		maxHoleSize : Int8
+		isMultipleHoles : Boolean
+		minPose : Int8
+		maxPose : Int8
+		occlusion : Int8
+		illumination : Int8 
+	}
+}

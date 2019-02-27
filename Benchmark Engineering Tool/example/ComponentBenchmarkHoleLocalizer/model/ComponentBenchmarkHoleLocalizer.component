@@ -1,0 +1,15 @@
+ComponentDefinition ComponentBenchmarkHoleLocalizer
+{
+	// send scenario to Component being benchmarked
+	RequestPort SendImageReq implements CommHoleLocalizer.SendImage {
+	}
+	// Query Database for scenarios
+	RequestPort SendDatabaseReq implements CommHoleLocalizerBenchmark.SendDatabase {
+	}
+	Activity Activity3
+	{
+		RequestPortLink SendImageReq
+		RequestPortLink SendDatabaseReq
+		DefaultTrigger PeriodicTimer 100.0 Hz 
+	}
+}

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ComponentDefinition="http://www.ecore.org/component/ComponentDefinition" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_h22UYPxXEeiQaJ7DpS6K2Q" selectedViews="_i1vlkPxXEeiQaJ7DpS6K2Q" version="12.1.0.201708031200">
+    <semanticResources>model/ComponentHoleLocalizer.component</semanticResources>
+    <semanticResources>model/ComponentHoleLocalizer.componentDocumentation</semanticResources>
+    <semanticResources>model/ComponentHoleLocalizer.componentParameters</semanticResources>
+    <semanticResources>platform:/resource/HoleLocalizerComm/model/HoleLocalizerComm.services</semanticResources>
+    <semanticResources>platform:/resource/HoleLocalizerComm/model/HoleLocalizerComm.types</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_i1vlkPxXEeiQaJ7DpS6K2Q">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_i8siIPxXEeiQaJ7DpS6K2Q" name="ComponentHoleLocalizer" repPath="#_i4sy8PxXEeiQaJ7DpS6K2Q">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']"/>
+        <target xmi:type="ComponentDefinition:ComponentDefModel" href="model/ComponentHoleLocalizer.component#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_i8kmUPxXEeiQaJ7DpS6K2Q" name="ComponentHoleLocalizer" uid="_i4sy8PxXEeiQaJ7DpS6K2Q">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_i8lNYPxXEeiQaJ7DpS6K2Q" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_i8lNYfxXEeiQaJ7DpS6K2Q"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_i-M-APxXEeiQaJ7DpS6K2Q" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_i-M-AfxXEeiQaJ7DpS6K2Q" type="Sirius" element="_i8kmUPxXEeiQaJ7DpS6K2Q" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_i_HkAPxXEeiQaJ7DpS6K2Q" type="2002" element="_i8lNY_xXEeiQaJ7DpS6K2Q">
+          <children xmi:type="notation:Node" xmi:id="_i_nTQPxXEeiQaJ7DpS6K2Q" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_i_q9oPxXEeiQaJ7DpS6K2Q" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_sZvEUPxXEeiQaJ7DpS6K2Q" type="3008" element="_sZMRwPxXEeiQaJ7DpS6K2Q">
+              <children xmi:type="notation:Node" xmi:id="_sZvEU_xXEeiQaJ7DpS6K2Q" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_sZvrYPxXEeiQaJ7DpS6K2Q" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_sZvrYfxXEeiQaJ7DpS6K2Q"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_sZvrYvxXEeiQaJ7DpS6K2Q"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_sZvEUfxXEeiQaJ7DpS6K2Q" fontName="Ubuntu" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sZvEUvxXEeiQaJ7DpS6K2Q" x="19" y="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_i_q9ofxXEeiQaJ7DpS6K2Q"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_i_q9ovxXEeiQaJ7DpS6K2Q"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_sZo9sPxXEeiQaJ7DpS6K2Q" type="3012" element="_sY594PxXEeiQaJ7DpS6K2Q">
+            <children xmi:type="notation:Node" xmi:id="_sZqL0PxXEeiQaJ7DpS6K2Q" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_sZqL0fxXEeiQaJ7DpS6K2Q" x="31" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_sZwScPxXEeiQaJ7DpS6K2Q" type="3014" element="_sZBSoPxXEeiQaJ7DpS6K2Q">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_sZwScfxXEeiQaJ7DpS6K2Q" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sZwScvxXEeiQaJ7DpS6K2Q"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_sZo9sfxXEeiQaJ7DpS6K2Q" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sZo9svxXEeiQaJ7DpS6K2Q" x="269" y="55" width="30" height="30"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_i_HkAfxXEeiQaJ7DpS6K2Q" fontName="Ubuntu" fontHeight="10" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i_HkAvxXEeiQaJ7DpS6K2Q" x="384" y="168" width="279" height="123"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_i-M-AvxXEeiQaJ7DpS6K2Q"/>
+        <edges xmi:type="notation:Edge" xmi:id="_sZ0j4PxXEeiQaJ7DpS6K2Q" type="4001" element="_sZho8PxXEeiQaJ7DpS6K2Q" source="_sZo9sPxXEeiQaJ7DpS6K2Q" target="_sZvEUPxXEeiQaJ7DpS6K2Q">
+          <children xmi:type="notation:Node" xmi:id="_sZ2ZEPxXEeiQaJ7DpS6K2Q" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sZ2ZEfxXEeiQaJ7DpS6K2Q" x="11" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_sZ3AIPxXEeiQaJ7DpS6K2Q" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sZ3AIfxXEeiQaJ7DpS6K2Q" x="-5" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_sZ3nMPxXEeiQaJ7DpS6K2Q" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sZ3nMfxXEeiQaJ7DpS6K2Q" x="-41" y="-3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_sZ1K8PxXEeiQaJ7DpS6K2Q"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_sZ1K8fxXEeiQaJ7DpS6K2Q" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sZ1K8vxXEeiQaJ7DpS6K2Q" points="[-15, 0, 171, 0]$[-112, 0, 74, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_saAKEPxXEeiQaJ7DpS6K2Q" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_saAKEfxXEeiQaJ7DpS6K2Q" id="(0.5,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_i8lNY_xXEeiQaJ7DpS6K2Q" name="ComponentHoleLocalizer" tooltipText="ComponentDefinition">
+      <target xmi:type="ComponentDefinition:ComponentDefinition" href="model/ComponentHoleLocalizer.component#//@component"/>
+      <semanticElements xmi:type="ComponentDefinition:ComponentDefinition" href="model/ComponentHoleLocalizer.component#//@component"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_sY594PxXEeiQaJ7DpS6K2Q" name="SendImageAnsw" tooltipText="AnswerPort" outgoingEdges="_sZho8PxXEeiQaJ7DpS6K2Q" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="ComponentDefinition:AnswerPort" href="model/ComponentHoleLocalizer.component#//@component/@elements.0"/>
+        <semanticElements xmi:type="ComponentDefinition:AnswerPort" href="model/ComponentHoleLocalizer.component#//@component/@elements.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:CustomStyle" xmi:id="_sZBSoPxXEeiQaJ7DpS6K2Q" showIcon="false" id="answer">
+          <description xmi:type="style:CustomStyleDescription" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='AnswerPortNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='AnswerPortNode']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_i8lNZPxXEeiQaJ7DpS6K2Q" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,245,181">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_sZMRwPxXEeiQaJ7DpS6K2Q" name="SendImageAnswHandler" tooltipText="RequestHandler" incomingEdges="_sZho8PxXEeiQaJ7DpS6K2Q">
+        <target xmi:type="ComponentDefinition:RequestHandler" href="model/ComponentHoleLocalizer.component#//@component/@elements.1"/>
+        <semanticElements xmi:type="ComponentDefinition:RequestHandler" href="model/ComponentHoleLocalizer.component#//@component/@elements.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_sZM40PxXEeiQaJ7DpS6K2Q" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='RequestHandlerContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='RequestHandlerContainer']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_sZho8PxXEeiQaJ7DpS6K2Q" sourceNode="_sY594PxXEeiQaJ7DpS6K2Q" targetNode="_sZMRwPxXEeiQaJ7DpS6K2Q">
+      <target xmi:type="ComponentDefinition:RequestHandler" href="model/ComponentHoleLocalizer.component#//@component/@elements.1"/>
+      <semanticElements xmi:type="ComponentDefinition:RequestHandler" href="model/ComponentHoleLocalizer.component#//@component/@elements.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_sZlTUPxXEeiQaJ7DpS6K2Q" targetArrow="OutputClosedArrow" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@edgeMappings[name='RequestHandlerEdge']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_sZlTUfxXEeiQaJ7DpS6K2Q" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@edgeMappings[name='RequestHandlerEdge']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_i8l0cPxXEeiQaJ7DpS6K2Q"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer"/>
+    <target xmi:type="ComponentDefinition:ComponentDefModel" href="model/ComponentHoleLocalizer.component#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

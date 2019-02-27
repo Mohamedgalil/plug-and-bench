@@ -1,0 +1,5 @@
+ComponentModeRepository CommHoleLocalizerBenchmark {
+	ComponentModeCollection DefaultModes {
+		ComponentModeDefinition Active;
+	}
+}

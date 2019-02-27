@@ -1,0 +1,8 @@
+ComponentDefinition ComponentHoleLocalizer
+{
+	AnswerPort SendImageAnsw implements CommHoleLocalizer.SendImage {
+	}
+	RequestHandler SendImageAnswHandler triggeredFrom SendImageAnsw {
+		
+	}
+}

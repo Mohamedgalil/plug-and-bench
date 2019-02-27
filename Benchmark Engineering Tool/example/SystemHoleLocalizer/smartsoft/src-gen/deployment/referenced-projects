@@ -1,0 +1,7 @@
+# This file is generated using the SmartMDSD Toolchain.
+# Any changes will be overwritten next time the deployment project
+# is deployed/run from within the SmartMDSD toolchain.
+
+REFERENCED_PROJECT_ComponentBenchmarkHoleLocalizer="/home/smartsoft/workspaces/project-1/ComponentBenchmarkHoleLocalizer"
+REFERENCED_PROJECT_ComponentDatabase="/home/smartsoft/workspaces/project-1/ComponentDatabase"
+REFERENCED_PROJECT_ComponentHoleLocalizer="/home/smartsoft/workspaces/project-1/ComponentHoleLocalizer"

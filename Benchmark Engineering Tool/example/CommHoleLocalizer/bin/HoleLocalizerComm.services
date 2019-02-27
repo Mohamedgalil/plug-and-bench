@@ -1,0 +1,9 @@
+ServiceDefRepository CommHoleLocalizer version 1.0
+{
+	RequestAnswerServiceDefinition SendImage {
+		QueryPattern <
+			RequestType = CommHoleLocalizer.ImageDir
+			AnswerType = CommHoleLocalizer.Holes
+		>
+	}
+}

@@ -1,0 +1,7 @@
+ComponentDefinition ComponentDatabase {
+
+AnswerPort SendDatabaseAnsw implements CommHoleLocalizerBenchmark.SendDatabase {
+	}
+	RequestHandler SendDatabaseAnswHandler triggeredFrom SendDatabaseAnsw {
+	}
+}
