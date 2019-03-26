@@ -7,9 +7,9 @@ sudo apt-get install qt5-default
 ### TODO create a repo and include generator jar file!!!
 git clone https://github.com/catedrasaes-umu/emf4cpp.git #to be changed with our github location
 
-cd emf4cpp
+cp lib/org.csu.emf4cpp.generator_2.0.0.jar emf4cpp/org.csu.emf4cpp.generator/
 
-cd builds
+cd emf4cpp/builds
 
 ./generator-release.sh
 
