@@ -127,7 +127,7 @@ This part depends on Part I. Please make sure that you finished all the steps in
 4. Build and compile all projects using SmartMDSD CMAKE and build icons (figure below), recommended in the following order:
 ``` BenchmarkLib (using Part I step 2) > CommHoleLocalizer > CommHoleLocalizerBenchmark > ComponentDatabase > ComponentHoleLocalizer > ComponentBenchmarkHoleLocalizer ```
 ![smartmdsd_button](https://owncloud.fraunhofer.de/index.php/s/2nbdyfs9GpMfutp/download)
-5. On successful compilation, deploy system and run
+5. On successful compilation, deploy and run `SystemHoleLocalizer`
 
 ## Note
 In case you import any projects, always remove the `CMakeFiles, CMakeCache, Make` and `build` directory, and rebuilt the projects
