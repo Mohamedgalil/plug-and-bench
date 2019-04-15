@@ -1,6 +1,6 @@
 # Benchmark Engineering tool integrated with SmartMDSD and Screwhole Localizer Benchmark example - how to
 
-BenchmarkEngineeringTool provides an interface to be used with SmartMDSD. The interface simply loads the ".standardized_problem" files created by the tool into C++ structures in the SmartMDSD. The loaded structures can be then used by the developers to ease developing the BenchmarkExperiment based on the developer's created model yet leveraging the structure offered by the BenchmarkEngineeringTool. The following guideline states the steps on how to load the ".standardized_problem" files into the SmartMDSD, and how to run the Screwhole Localizer Benchmark Experiment.
+BenchmarkEngineeringTool provides an interface to be used with SmartMDSD. The interface simply loads the `.standardized_problem` files created by the tool into C++ structures in the SmartMDSD. The loaded structures can be then used by the developers to ease developing the BenchmarkExperiment based on the developer's created model yet leveraging the structure offered by the BenchmarkEngineeringTool. The following guideline states the steps on how to load the `.standardized_problem` files into the SmartMDSD, and how to run the Screwhole Localizer Benchmark Experiment.
 
 Note: a virtual machine with all prerequisites installed is available on https://github.com/Mohamedgalil/plug-and-bench#downloads. 
 
@@ -103,7 +103,7 @@ Note: a virtual machine with all prerequisites installed is available on https:/
    std::cout << "Loaded standardized problem:" << standardizedProblem->getLabel();
    ```
 
-   8. Accordingly, the standardized_problem structures can be used in the created activity
+   Accordingly, the standardized_problem structures can be used in the created activity
 
 ### Issue that can be faced
 
@@ -122,8 +122,8 @@ This part depends on Part I. Please make sure that you finished all the steps in
 1. Import all projects (under https://github.com/Mohamedgalil/plug-and-bench/tree/master/Benchmark%20Engineering%20Tool/example) into a SmartMDSD workspace
 2. Install the `ComponentHoleLocalizer/install_dependencies.sh`
 3. Follow Part I Step 4 to add the integration dependencies to the CMAKE of ComponentBenchmarkHoleLocalizer
-4. Place the benchmark images in a folder, and point to these images in `ComponentDatabase` under ComponentDatabase/smartsoft/src/SendDatabaseAnswHandler.cc
-5. In `ComponentBenchmarkHoleLocalizer` under `ComponentBenchmarkHoleLocalizer/smartsoft/src/Activity3.cc`, define the location of the model (`____.standardized_problem`) and where the output report should be saved
+4. Place the benchmark images in a folder, and point to these images in `ComponentDatabase` under `ComponentDatabase/smartsoft/src/SendDatabaseAnswHandler.cc`
+5. In `ComponentBenchmarkHoleLocalizer` under `ComponentBenchmarkHoleLocalizer/smartsoft/src/Activity3.cc`, define the location of the model (`.standardized_problem` file) and where the output report should be saved
 4. Build and compile all projects using SmartMDSD CMAKE and build icons (figure below), recommended in the following order:
 ``` BenchmarkLib (using Part I step 2) > CommHoleLocalizer > CommHoleLocalizerBenchmark > ComponentDatabase > ComponentHoleLocalizer > ComponentBenchmarkHoleLocalizer ```
 ![smartmdsd_button](https://owncloud.fraunhofer.de/index.php/s/2nbdyfs9GpMfutp/download)
